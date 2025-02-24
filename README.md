@@ -1,1 +1,1 @@
-# ComouterQpdfwala-AI-mastery
+# ComputerQpdfwala-AI-mastery
