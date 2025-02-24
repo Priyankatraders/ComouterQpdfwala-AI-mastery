@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computerqpdfwala - App AI Mastery Course</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Computerqpdfwala</h1>
+            <h2>App AI Mastery Course</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" id="profile-link">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="registration-section">
+            <h2>Register</h2>
+            <input type="text" id="reg-name" placeholder="Name">
+            <input type="number" id="reg-age" placeholder="Age">
+            <button id="register-button">Register</button>
+        </section>
+
+        <section id="profile-section" style="display:none;">
+            <h2>Profile</h2>
+            <div id="profile-details"></div>
+            <button id="edit-profile">Edit Profile</button>
+        </section>
+
+        <section id="edit-profile-section" style="display:none;">
+            <h2>Edit Profile</h2>
+            <input type="text" id="profile-name" placeholder="Name">
+            <input type="number" id="profile-age" placeholder="Age">
+            <button id="save-profile">Save Profile</button>
+        </section>
+
+        <section id="new-post" style="display:none;">
+            <h2>Create Post</h2>
+            <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+            <input type="file" id="post-media" accept="image/*, video/*"  max-size="5242880"> <label for="post-media">Add Media (Max 5MB)</label>
+            <button id="post-button">Post</button>
+        </section>
+
+        <section id="posts">
+            <h2>Recent Posts</h2>
+            <div id="post-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Computerqpdfwala. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

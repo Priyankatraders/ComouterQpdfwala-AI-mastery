@@ -1,0 +1,210 @@
+/* style.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main {
+    padding: 20px 0;
+}
+
+#registration-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#registration-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#registration-section button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#registration-section button:hover {
+    background-color: #2980b9;
+}
+
+#profile-details {
+    margin-bottom: 15px;
+}
+
+#profile-details p {
+    margin: 5px 0;
+}
+
+#edit-profile-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#new-post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#new-post h2 {
+    margin-bottom: 15px;
+    color: #3498db;
+}
+
+#post-content {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+}
+
+#post-button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#post-button:hover {
+    background-color: #2980b9;
+}
+
+#posts {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#posts h2 {
+    margin-bottom: 15px;
+    color: #3498db;
+}
+
+.post {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post .post-content {
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+
+.post-timestamp {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 5px;
+    text-align: right;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer .container {
+    padding: 10px;
+}
+
+#post-media{
+    display: none;
+}
+
+#new-post label{
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+#new-post label:hover {
+    background-color: #2980b9;
+}
+
+.post .post-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.post img, .post video {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
